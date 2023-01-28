@@ -8,7 +8,8 @@
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest",
-    "up": "taze major -I"
+    "up": "taze major -I",
+    "format": "onchange 'src/**/*.js' -- prettier --write {{changed}}"
   },
   "dependencies": {
     "@vueuse/core": "^9.11.0",
@@ -24,6 +25,7 @@
     "@vue-macros/volar": "^0.5.15",
     "@vue/test-utils": "^2.2.7",
     "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
     "jsdom": "^21.0.0",
     "pnpm": "^7.25.1",
     "prettier": "^2.8.3",
