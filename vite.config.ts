@@ -51,9 +51,12 @@ export default defineConfig({
     // see unocss.config.ts for config
     Unocss(),
   ],
-
-  // https://github.com/vitest-dev/vitest
   test: {
     environment: 'jsdom',
   },
+  server: {
+    watch: {
+      usePolling: true,
+    }    
+  }
 })

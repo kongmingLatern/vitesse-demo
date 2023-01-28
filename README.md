@@ -37,11 +37,9 @@
 
 - ☁️ Deploy on Netlify, zero-config
 
-
 <br>
 
 See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
 
 ## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
 
@@ -71,7 +69,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
-## Try it now!
+## Try it now
 
 ### GitHub Template
 
@@ -82,7 +80,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
+npx degit kongmingLatern/vitesse-lite my-vitesse-app
 cd my-vitesse-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
